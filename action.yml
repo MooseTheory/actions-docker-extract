@@ -11,6 +11,9 @@ inputs:
   destination:
     description: 'Destination path for the extracted files'
     required: false
+  shell_command:
+    description: 'The shell command to execute, defaults to `/bin/bash -c`'
+    required: false
 outputs:
   destination:
     description: 'Destination of extracted file(s)'

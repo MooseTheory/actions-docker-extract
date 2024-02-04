@@ -1,2 +1,4 @@
 node_modules/
 /dist/
+.id_rsa
+.id_rsa.pub
