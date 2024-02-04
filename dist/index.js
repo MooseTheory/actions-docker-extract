@@ -1090,6 +1090,8 @@ const exec = __webpack_require__(986);
 async function run() {
   try {
     const shell = core.getInput('shell_command') || "/bin/bash -c";
+    console.log(shell);
+    console.log(core.getInput('shell_command'));
     const image = core.getInput('image');
     const path = core.getInput('path');
     const destination = core.getInput('destination') || `.extracted-${Date.now()}`;
